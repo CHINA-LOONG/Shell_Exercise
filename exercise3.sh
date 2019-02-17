@@ -11,8 +11,8 @@ echo ${author}
 echo "$url is author is $author"
 echo '$url is author is $author'
 
-echo "variable=`command`"
-echo "variable=$(command)"
+echo "variable=\`command"
+echo "variable=\$(command)"
 
 
 echo `cat README.md`
